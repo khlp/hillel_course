@@ -1,4 +1,4 @@
-#First variant - The program checks if the ticket is lucky or not
+#First variant - The program count lucky tickets
 counter = 0
 for ticket in range (0,1000000):
     num6 = ticket % 10
