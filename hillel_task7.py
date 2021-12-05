@@ -1,5 +1,4 @@
-#заменить в строке искомое слово на слово-замену и вывески колличество замен
-string = 'aaa bbb ccc ddd bbb rrr eee ddd bbb'
+string = 'aaa bbb ccc ddd bbb rrr eee ddd bbb bbb'
 new_data = 'bbb'
 count=0
 
