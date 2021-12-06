@@ -1,13 +1,10 @@
-#Doesn't work with text value, despite of using raw_input,
-# with integer works ok
-
-dictionary2 = {'ford': [1, 3, 4, 8, 20],
-            'fiat'  : [3, 10, 15, 7, 9],
-             'renault' : [5, 3, 7, 8, 1]
+dictionary2 = {'ford': ['mondeo', 'focus', 'kuga'],
+            'fiat'  : ['tipo', 'panda','500'],
+             'renault' : ['clio', 'megan', 'duster']
              }
 while True:
-    value = input('Enter car model: ')
-    if value == 0:
+    value = raw_input('Enter car model: ')
+    if value == 'exit':
         break
     list_of_keys = [key
                     for key, list_of_values in dictionary2.items()
