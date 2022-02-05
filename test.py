@@ -1,1 +1,1 @@
-print("Hello world")
+https://en.wikipedia.org/w/api.php?format=json&action=opensearch&search=global%20warming&limit=2&profile=fuzzy
